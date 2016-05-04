@@ -158,17 +158,21 @@ a {
     font-size: 10px;
     font-weight: 400;
     width: 600px;
-	  height: 200px;
+	  height: 2250px;
     margin-left: 150px;
     line-height: 140%;
 
-	-ms-column-count:3;
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3;
+	-ms-column-count:1;
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+}
 
-    -ms-column-gap:30px;
-    -webkit-column-gap: 30px;
-    -moz-column-gap: 30px;
-    column-gap: 30px;
+img {
+   display: block; /* Images display inline by default */
+   max-width: 100%; /* Responsive images! Always be at most 100%
+                       the width of the containing element
+                       (<figure>, in this example's case) */
+   padding-top: 12px;
+   padding-bottom: 12px;
 }
