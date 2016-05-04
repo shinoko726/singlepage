@@ -52,3 +52,11 @@ table {
   using minor third modular scale:
   http://www.modularscale.com/?18&px&1.2&web&text
 */
+a {
+    text-decoration: none;
+}
+
+:link {
+    text-decoration: none;
+    color: #484848;
+}
