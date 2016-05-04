@@ -134,6 +134,21 @@ a {
     -webkit-column-gap: 30px;
     -moz-column-gap: 30px;
     column-gap: 30px;
+}
 
+.contact {
+    color: #000000;
+    font-family:'Cousine';
+    font-size: 10px;
+    font-weight: 400;
+    width: 600px;
+	  height: 200px;
+    margin-left: 150px;
+    line-height: 140%;
+
+	-ms-column-count:1;
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
 }
 
