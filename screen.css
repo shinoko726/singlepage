@@ -60,3 +60,18 @@ a {
     text-decoration: none;
     color: #484848;
 }
+
+:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.nav a:hover {
+    text-decoration: none;
+    color: #000000;
+    padding-left: 3px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: -3px;
+    font-weight: 700;
+}
